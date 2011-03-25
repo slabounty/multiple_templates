@@ -16,7 +16,7 @@ end
 
 compile '/page*/' do
   filter :erb
-  layout '/page/'
+  layout 'page'
 end
 
 compile '*' do
